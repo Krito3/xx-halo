@@ -22,6 +22,10 @@
 
 [官网](https://halo.run) | [文档](https://docs.halo.run) | [社区](https://bbs.halo.run) | [Gitee](https://gitee.com/halo-dev) | [Telegram 频道](https://t.me/halo_dev)
 
+## 说明 
+
+不太熟悉gradle，将gradle改为maven
+
 ## 快速开始
 
 ### Fat Jar
