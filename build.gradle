@@ -3,6 +3,18 @@ plugins {
     id "io.spring.dependency-management" version "1.0.11.RELEASE"
     id "checkstyle"
     id "java"
+    id 'maven-publish'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'run.halo.app'
+            artifactId = 'halo'
+            version = "1.4.11"
+            from components.java
+        }
+    }
 }
 
 group = "run.halo.app"
