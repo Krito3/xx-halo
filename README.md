@@ -1,4 +1,4 @@
-## xx-halo 分支
+## halo 分支
 
 不太熟悉gradle，将gradle改为maven
 以下为原项目
