@@ -58,13 +58,16 @@ public class StartedListener implements ApplicationListener<ApplicationStartedEv
     @Autowired
     private ThemeService themeService;
 
-    @Value("${spring.datasource.url}")
+    // @Value("${spring.datasource.url}")
+    @Value("${spring.datasource.druid.url}")
     private String url;
 
-    @Value("${spring.datasource.username}")
+    // @Value("${spring.datasource.username}")
+    @Value("${spring.datasource.druid.username}")
     private String username;
 
-    @Value("${spring.datasource.password}")
+    // @Value("${spring.datasource.password}")
+    @Value("${spring.datasource.druid.password}")
     private String password;
 
     @Value("${springfox.documentation.enabled}")
